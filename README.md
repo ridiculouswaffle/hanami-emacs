@@ -17,7 +17,24 @@ I named the theme Hanami after some brainstorming with ChatGPT.
 
 ### Will it be available on MELPA or other repositories? 
 
-Yeah. I will be submitting to MELPA soon to make installation even easier
+Yeah. I will be submitting to MELPA soon to make installation even easier.
+
+In the meanwhile, if you have `straight.el`, you can install the theme like this:
+```elisp
+;; Install the package
+(straight-use-package
+ '(hanami
+   :type git
+   :host nil
+   :repo "https://github.com/ridiculouswaffle/hanami-emacs.git"))
+
+;; Emacs doesn't recognize this as a theme, so add it to themes load path
+(add-to-list 'custom-theme-load-path
+             (expand-file-name "hanami" (straight--build-dir)))
+
+;; Then load it.
+(load-theme 'hanami t)
+```
 
 ## How can I customize this theme?
 
