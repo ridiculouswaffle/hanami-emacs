@@ -99,7 +99,22 @@
    `(diff-refine-added ((t (:background ,darkgreen :foreground ,foreground))))
    `(diff-refine-changed ((t (:background ,darkyellow :foreground ,foreground))))
    `(diff-refine-removed ((t (:backgrond ,darkred :foreground ,foreground))))
-   `(diff-error ((t (:background ,background :foreground ,red))))))
+   `(diff-error ((t (:background ,background :foreground ,red))))
+
+   ;; Orderless
+   `(orderless-match-face-0 ((t (:foreground ,pink))))
+   `(orderless-match-face-1 ((t (:foreground ,purple))))
+   `(orderless-match-face-2 ((t (:foreground ,blue))))
+   `(orderless-match-face-3 ((t (:foreground ,yellow))))
+
+   ;; Corfu
+   `(corfu-default ((t (:background ,lightpink :foreground ,foreground))))
+   `(corfu-current ((t (:background ,lighterpink :foreground ,foreground))))
+   `(corfu-bar ((t (:background ,pink :foreground ,pink))))
+
+   ;; Company
+   `(company-tooltip ((t (:background ,lightpink :foreground ,foreground))))
+   `(company-preview ((t (:background ,lighterpink :foreground ,foreground))))))
 
 (provide-theme 'hanami)
 ;;; hanami.el ends here
