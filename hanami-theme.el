@@ -114,7 +114,11 @@
 
    ;; Company
    `(company-tooltip ((t (:background ,lightpink :foreground ,foreground))))
-   `(company-preview ((t (:background ,lighterpink :foreground ,foreground))))))
+   `(company-tooltip-selection ((t (:background ,lighterpink :foreground ,foreground))))
+   `(company-tooltip-common ((t (:foreground ,pink)))) 
+   `(company-preview ((t (:foreground ,foreground))))
+   `(company-scrollbar-bg ((t (:background ,lighterpink))))
+   `(company-scrollbar-fg ((t (:background ,lightestpink))))))
 
 (provide-theme 'hanami)
 ;;; hanami.el ends here
