@@ -60,7 +60,8 @@
    `(error ((t (:foreground ,red))))
    `(warning ((t (:foreground ,yellow))))
    `(help-key-binding ((t (:background ,lightpink :foreground ,pink))))
-
+   `(widget-field ((t (:background ,lightpink :foreground ,foreground))))
+   
    ;; Font lock faces...
    `(font-lock-keyword-face ((t (:foreground ,pink :slant italic))))
    `(font-lock-string-face ((t (:foreground ,green))))
@@ -98,7 +99,7 @@
    `(diff-indicator-changed ((t (:foreground ,yellow))))
    `(diff-refine-added ((t (:background ,darkgreen :foreground ,foreground))))
    `(diff-refine-changed ((t (:background ,darkyellow :foreground ,foreground))))
-   `(diff-refine-removed ((t (:backgrond ,darkred :foreground ,foreground))))
+   `(diff-refine-removed ((t (:background ,darkred :foreground ,foreground))))
    `(diff-error ((t (:background ,background :foreground ,red))))
 
    ;; Orderless
