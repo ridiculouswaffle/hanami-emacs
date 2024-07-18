@@ -3,7 +3,7 @@ Hanami is a dark kawaii theme that reminds you of sakura (or even Sakura, IYKYK)
 
 This theme is still in it's early stages. It's usable, but you won't have the color pallete in third party packages such as Magit, Company and Corfu yet.
 
-![Hanami preview][./theme-preview.png]
+![Hanami preview](./theme-preview.png)
 
 ### What was the inspiration behind this theme?
 I've always been a theme-hopper across various editors. When I switched to Emacs, I found myself cycling through themes like Nord and Gruvbox, but none quite stuck. I wanted something cute and unique, so I decided to create Hanami!
