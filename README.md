@@ -1,9 +1,17 @@
 # Hanami
-Hanami is a dark kawaii theme that reminds you of sakura (or even Sakura, IYKYK)
+Hanami is a dark kawaii theme that reminds you of sakura (or even Sakura, IYKYK). It is designed to be easy on the eyes, while still being cute to users. 
 
-This theme is still in it's early stages. It's usable, but you won't have the color pallete in third party packages such as Magit, Company and Corfu yet.
+This theme is still in it's early stages. Most third-party packages are not yet supported.
+
+Supported packages as of now are:
+- [Corfu](https://github.com/minad/corfu)
+- [Company Mode](https://github.com/company-mode/company-mode)
+- [Orderless](https://github.com/oantolin/orderless)
+- Terminal emulators such as [VTerm](https://github.com/akermu/emacs-libvterm), [Eat](https://codeberg.org/akib/emacs-eat), `term` and `ansi-term` with ANSI colors
 
 ![Hanami preview](./theme-preview.png)
+
+Font used in the screnshot: [Iosevka](https://github.com/be5invis/Iosevka) with the size 14
 
 ### What was the inspiration behind this theme?
 I've always been a theme-hopper across various editors. When I switched to Emacs, I found myself cycling through themes like Nord and Gruvbox, but none quite stuck. I wanted something cute and unique, so I decided to create Hanami!
